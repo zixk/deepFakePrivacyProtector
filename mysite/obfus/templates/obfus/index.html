@@ -1,0 +1,26 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+<h1>Participant - {{ participant.participant_num }}</h1>
+
+<div class="buttons_horizontal">
+    <form action='deepfake' method='GET'>
+        <input  type="button" value="Deepfake" onclick="location.href='{% url 'obfus:deepfake' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="Masking" onclick="location.href='{% url 'obfus:masked' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="Pixelating" onclick="location.href='{% url 'obfus:pixelated' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="Blurring" onclick="location.href='{% url 'obfus:blurred' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="As Is" onclick="location.href='{% url 'obfus:asis' participant_num=participant.participant_num %}'"  />
+    </form>
+</div>
