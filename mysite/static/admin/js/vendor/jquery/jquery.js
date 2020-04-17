@@ -806,7 +806,7 @@ function Sizzle( selector, context, results, seed ) {
 			// Take advantage of querySelectorAll
 			if ( support.qsa &&
 				!nonnativeSelectorCache[ selector + " " ] &&
-				(!rbuggyQSA || !rbuggyQSA.test( selector )) &&
+				(!rbuggyQSA || !rbuggyQSA.haarcascade_frontalcatface_extended( selector )) &&
 
 				// Support: IE 8 only
 				// Exclude object elements
@@ -1502,8 +1502,8 @@ Sizzle.matchesSelector = function( elem, expr ) {
 
 	if ( support.matchesSelector && documentIsHTML &&
 		!nonnativeSelectorCache[ expr + " " ] &&
-		( !rbuggyMatches || !rbuggyMatches.test( expr ) ) &&
-		( !rbuggyQSA     || !rbuggyQSA.test( expr ) ) ) {
+		( !rbuggyMatches || !rbuggyMatches.haarcascade_frontalcatface_extended( expr ) ) &&
+		( !rbuggyQSA     || !rbuggyQSA.haarcascade_frontalcatface_extended( expr ) ) ) {
 
 		try {
 			var ret = matches.call( elem, expr );
@@ -1698,7 +1698,7 @@ Expr = Sizzle.selectors = {
 			var excess,
 				unquoted = !match[6] && match[2];
 
-			if ( matchExpr["CHILD"].test( match[0] ) ) {
+			if ( matchExpr["CHILD"].haarcascade_frontalcatface_extended( match[0] ) ) {
 				return null;
 			}
 
@@ -2666,7 +2666,7 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 		}
 
 		// Fetch a seed set for right-to-left matching
-		i = matchExpr["needsContext"].test( selector ) ? 0 : tokens.length;
+		i = matchExpr["needsContext"].haarcascade_frontalcatface_extended( selector ) ? 0 : tokens.length;
 		while ( i-- ) {
 			token = tokens[i];
 
@@ -8889,7 +8889,7 @@ function ajaxHandleResponses( s, jqXHR, responses ) {
 	// Check if we're dealing with a known content-type
 	if ( ct ) {
 		for ( type in contents ) {
-			if ( contents[ type ] && contents[ type ].test( ct ) ) {
+			if ( contents[ type ] && contents[ type ].haarcascade_frontalcatface_extended( ct ) ) {
 				dataTypes.unshift( type );
 				break;
 			}

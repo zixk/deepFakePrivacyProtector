@@ -3,6 +3,8 @@
 
 <h1>Participant - {{ participant.participant_num }}</h1>
 
+<h2>Owned Pictures (Bystanders)</h2>
+
 <div class="buttons_horizontal">
     <form action='deepfake' method='GET'>
         <input  type="button" value="Deepfake" onclick="location.href='{% url 'obfus:deepfake' participant_num=participant.participant_num %}'"  />
@@ -21,6 +23,42 @@
     </form>
 
     <form action='actionUrl' method='GET'>
-        <input type="button" value="As Is" onclick="location.href='{% url 'obfus:asis' participant_num=participant.participant_num %}'"  />
+        <input type="button" value="Avatar" onclick="location.href='{% url 'obfus:avatar' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="As Is (No obfuscation)" onclick="location.href='{% url 'obfus:asis' participant_num=participant.participant_num %}'"  />
+    </form>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>Unowned Pictures (Participants)</h2>
+<div class="buttons_horizontal">
+    <form action='deepfake' method='GET'>
+        <input  type="button" value="Deepfake" onclick="location.href='{% url 'obfus:bystander_deepfake' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="Masking" onclick="location.href='{% url 'obfus:bystander_masked' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="Pixelating" onclick="location.href='{% url 'obfus:bystander_pixelated' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="Blurring" onclick="location.href='{% url 'obfus:bystander_blurred' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="Avatar" onclick="location.href='{% url 'obfus:bystander_avatar' participant_num=participant.participant_num %}'"  />
+    </form>
+
+    <form action='actionUrl' method='GET'>
+        <input type="button" value="As Is (No obfuscation)" onclick="location.href='{% url 'obfus:bystander_asis' participant_num=participant.participant_num %}'"  />
     </form>
 </div>

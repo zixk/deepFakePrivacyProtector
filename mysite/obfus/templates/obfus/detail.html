@@ -1,7 +1,7 @@
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 
-<img src="{{ participant_pic }}">
+<img style="max-width: 60%; max-height: 60%;" src="{{ participant_pic }}">
 
 <form action='actionUrl' method='GET'>
         <input style=" position:absolute;bottom: 5%;right:20%;" t type="button" value="Return" onclick="location.href='{% url 'obfus:post_detail' participant_num=participant_num %}'"  />

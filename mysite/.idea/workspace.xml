@@ -4,18 +4,126 @@
     <list default="true" id="9ab15374-f09a-40c0-a14f-f65f68923be2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/DeepPrivacy/deep.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DeepPrivacy/run_deepfake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obfus/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obfus/templates/obfus/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obfus/templates/obfus/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obfus/templates/obfus/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean_images.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obfus/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obfus/haarcascade_frontalface_alt2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obfus/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obfus/haarcascade_profileface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/darkfemale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/darkmale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lightfemale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lightmale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepPrivacy" beforeDir="false" afterPath="$PROJECT_DIR$/DeepPrivacy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DeepPrivacy/deep_privacy/inference/anonymizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepPrivacy/deep_privacy/inference/anonymizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_E5L5evR_blurred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_E5L5evR_blurred_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_IpdxP2C_blurred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_IpdxP2C_blurred_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_JfGNZSw_blurred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_JfGNZSw_blurred_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_McYxru8_blurred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_McYxru8_blurred_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_blurred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/cyberbullying_blurred_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/ex_blurred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/ex_blurred_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/test1_blurred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/test1_blurred_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/test1_ejFFNpA_blurred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/blurred/test1_ejFFNpA_blurred_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_E5L5evR_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_E5L5evR_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_IpdxP2C_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_IpdxP2C_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_JfGNZSw_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_JfGNZSw_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_McYxru8_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_McYxru8_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/cyberbullying_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/ex_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/ex_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/test1_ejFFNpA_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/test1_ejFFNpA_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/test1_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cropped/test1_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cyberbullying.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cyberbullying_E5L5evR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cyberbullying_IpdxP2C.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cyberbullying_JfGNZSw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/cyberbullying_McYxru8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_E5L5evR_deepfake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_E5L5evR_deepfake_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_E5L5evR_deepfake_left_detected_left_anonymized_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_IpdxP2C_deepfake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_IpdxP2C_deepfake_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_IpdxP2C_deepfake_left_detected_left_anonymized_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_JfGNZSw_deepfake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_JfGNZSw_deepfake_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_JfGNZSw_deepfake_left_detected_left_anonymized_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_McYxru8_deepfake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_McYxru8_deepfake_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_McYxru8_deepfake_left_detected_left_anonymized_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_deepfake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_deepfake_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/cyberbullying_deepfake_left_detected_left_anonymized_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/ex_deepfake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/ex_deepfake_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/ex_deepfake_left_detected_left_anonymized_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/test1_deepfake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/test1_deepfake_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/test1_deepfake_left_detected_left_anonymized_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/test1_ejFFNpA_deepfake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/test1_ejFFNpA_deepfake_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/deepfake/test1_ejFFNpA_deepfake_left_detected_left_anonymized_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/ex.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_E5L5evR_masked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_E5L5evR_masked_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_IpdxP2C_masked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_IpdxP2C_masked_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_JfGNZSw_masked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_JfGNZSw_masked_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_McYxru8_masked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_McYxru8_masked_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_masked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/cyberbullying_masked_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/ex_masked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/ex_masked_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/test1_ejFFNpA_masked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/test1_ejFFNpA_masked_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/test1_masked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/masked/test1_masked_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_E5L5evR_pixelated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_E5L5evR_pixelated_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_IpdxP2C_pixelated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_IpdxP2C_pixelated_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_JfGNZSw_pixelated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_JfGNZSw_pixelated_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_McYxru8_pixelated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_McYxru8_pixelated_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_pixelated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/cyberbullying_pixelated_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/ex_pixelated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/ex_pixelated_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/test1_ejFFNpA_pixelated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/test1_ejFFNpA_pixelated_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/test1_pixelated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pixelated/test1_pixelated_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/test1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/test1_ejFFNpA.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obfus/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/obfus/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obfus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/obfus/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obfus/templates/obfus/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/obfus/templates/obfus/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obfus/templates/obfus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/obfus/templates/obfus/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obfus/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/obfus/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obfus/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/obfus/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stylegan" beforeDir="false" afterPath="$PROJECT_DIR$/../stylegan" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +145,46 @@
     <expand />
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/obfus/templates/obfus/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/obfus/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="299" column="62" lean-forward="true" selection-start-line="299" selection-start-column="60" selection-end-line="299" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/obfus/templates/obfus/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -53,39 +194,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#form#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/staticfiles/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/obfus/templates/obfus/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/obfus/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="45" column="113" selection-start-line="45" selection-start-column="113" selection-end-line="45" selection-end-column="113" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -96,9 +204,13 @@
     <findStrings>
       <find>impath</find>
       <find>\</find>
+      <find>minSize=(350, 350),F</find>
+      <find>minSize=(350, 350)</find>
+      <find>minSize=(350, 350),</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
+      <replace>minSize=(200, 200),</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -107,29 +219,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/obfus/forms.py" />
         <option value="$PROJECT_DIR$/deep.bat" />
         <option value="$PROJECT_DIR$/DeepPrivacy/deep_privacy/inference/anonymizer.py" />
         <option value="$PROJECT_DIR$/DeepPrivacy/run_deepfake.py" />
         <option value="$PROJECT_DIR$/DeepPrivacy/deep.bat" />
         <option value="$PROJECT_DIR$/obfus/haarcascade_frontalface_default.xml" />
-        <option value="$PROJECT_DIR$/obfus/models.py" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/obfus/urls.py" />
-        <option value="$PROJECT_DIR$/obfus/templates/obfus/index.html" />
         <option value="$PROJECT_DIR$/obfus/templates/obfus/post.html" />
         <option value="$PROJECT_DIR$/staticfiles/css/style.css" />
-        <option value="$PROJECT_DIR$/obfus/views.py" />
+        <option value="$PROJECT_DIR$/obfus/test.xml" />
+        <option value="$PROJECT_DIR$/obfus/forms.py" />
+        <option value="$PROJECT_DIR$/obfus/models.py" />
+        <option value="$PROJECT_DIR$/obfus/urls.py" />
+        <option value="$PROJECT_DIR$/clean_images.bat" />
+        <option value="$PROJECT_DIR$/obfus/templates/obfus/index.html" />
         <option value="$PROJECT_DIR$/obfus/templates/obfus/detail.html" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/obfus/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="663" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="550" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,6 +285,17 @@
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,18 +313,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/staticfiles/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dom\Desktop\deepFakePrivacyProtector\mysite\staticfiles\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dom\Desktop\deepFakePrivacyProtector\mysite\obfus" />
+      <recent name="C:\Users\dom\Desktop\deepFakePrivacyProtector\mysite\staticfiles\images" />
       <recent name="C:\Users\dom\Desktop\deepFakePrivacyProtector\mysite\DeepPrivacy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dom\Desktop\deepFakePrivacyProtector\mysite\static" />
+      <recent name="C:\Users\dom\Desktop\deepFakePrivacyProtector\mysite\staticfiles\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,31 +386,50 @@
       <workItem from="1578874741833" duration="15427000" />
       <workItem from="1578988187008" duration="19077000" />
       <workItem from="1579505746684" duration="10658000" />
+      <workItem from="1579775334883" duration="1508000" />
+      <workItem from="1580058519574" duration="12406000" />
+      <workItem from="1580311155161" duration="3893000" />
+      <workItem from="1580383724265" duration="12608000" />
+      <workItem from="1580700730408" duration="3374000" />
+      <workItem from="1580808190890" duration="652000" />
+      <workItem from="1581177997027" duration="1294000" />
+      <workItem from="1581503256933" duration="3596000" />
+      <workItem from="1581529884823" duration="77000" />
+      <workItem from="1581583675646" duration="672000" />
+      <workItem from="1581963606326" duration="657000" />
+      <workItem from="1582630993739" duration="1385000" />
+      <workItem from="1582648738138" duration="627000" />
+      <workItem from="1583337982260" duration="1213000" />
+      <workItem from="1583352762957" duration="629000" />
+      <workItem from="1583447234435" duration="368000" />
+      <workItem from="1583447832599" duration="1000000" />
+      <workItem from="1586933044975" duration="1566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91818000" />
+    <option name="totallyTimeSpent" value="139343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3085339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38968167" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.2892741" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32932165" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31509846" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31419286" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,34 +441,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/obfus/templates/obfus/forms.py" />
-    <entry file="file://$PROJECT_DIR$/obfus/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obfus/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obfus/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obfus/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/images/cropped/5head_left.png" />
-    <entry file="file://$PROJECT_DIR$/media/images/cropped/5head_right.png" />
     <entry file="file://$PROJECT_DIR$/DeepPrivacy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -368,26 +488,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepPrivacy/run_deepfake.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="107" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/images/deepfake/ex_MOZi55D_deepfake_detected_left_anonymized_right.jpg" />
     <entry file="file://$PROJECT_DIR$/media/images/deepfake/ex_2kdr5Lc_deepfake_detected_left_anonymized_right.jpg" />
     <entry file="file://$PROJECT_DIR$/media/images/deepfake/ex_MOZi55D_deepfake.jpg" />
     <entry file="file://$PROJECT_DIR$/media/images/deepfake/ex_2kdr5Lc_deepfake.jpg" />
-    <entry file="file://$PROJECT_DIR$/media/images/cropped/ex_right.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/images/cropped/ex_left.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/media/images/cropped/ex_right.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/images/cropped/ex_left.jpg" />
     <entry file="file://$PROJECT_DIR$/media/images/deepfake/ex_pHEeRBI_deepfake.jpg" />
     <entry file="file://$PROJECT_DIR$/media/images/deepfake/ex_8On5G4S_deepfake.jpg" />
     <entry file="file://$PROJECT_DIR$/obfus/haarcascade_frontalface_default.xml">
@@ -401,14 +507,6 @@
     <entry file="file://$PROJECT_DIR$/result1.png" />
     <entry file="file://$PROJECT_DIR$/media/images/blurred/ex_gv6iMdF_blurred.jpg" />
     <entry file="file://$PROJECT_DIR$/media/images/blurred/ex_PTmeOsz_blurred.jpg" />
-    <entry file="file://$PROJECT_DIR$/result.png" />
-    <entry file="file://$PROJECT_DIR$/DeepPrivacy/deep.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/conda/Lib/site-packages/django/db/models/fields/files.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -418,13 +516,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/obfus/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obfus/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -436,10 +527,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+    <entry file="file://$PROJECT_DIR$/staticfiles/images/lightfemale.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obfus/haarcascade_frontalcatface_extended.xml" />
+    <entry file="file://$PROJECT_DIR$/result.png" />
+    <entry file="file://$PROJECT_DIR$/media/images/deepfake/IMG_20200130_131738_deepfake.jpg" />
+    <entry file="file://$PROJECT_DIR$/obfus/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="459">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obfus/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepPrivacy/run_deepfake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="107" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepPrivacy/deep.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/lightfemale.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/lightmale.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/darkmale.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/darkfemale.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean_images.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="81" selection-start-column="81" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -452,11 +595,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/obfus/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="374">
+          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obfus/templates/obfus/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obfus/templates/obfus/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -464,40 +635,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obfus/templates/obfus/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/staticfiles/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/obfus/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" column="113" selection-start-line="45" selection-start-column="113" selection-end-line="45" selection-end-column="113" />
+        <state relative-caret-position="-170">
+          <caret line="299" column="62" lean-forward="true" selection-start-line="299" selection-start-column="60" selection-end-line="299" selection-end-column="62" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obfus/templates/obfus/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
         </state>
       </provider>
     </entry>

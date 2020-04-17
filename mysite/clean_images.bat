@@ -1,0 +1,1 @@
+del /s /q "C:\Users\dom\Desktop\deepFakePrivacyProtector\mysite\media\images\*.*"
